@@ -1,0 +1,105 @@
+.wrapper {
+  max-width: 300px;
+  width: 100%;
+  background: #303234;
+  /* border-radius: 5px;       📐 Kartaga yumaloq burchaklar */
+  overflow: hidden; /* 🔒 Ichidagi rasm va body radiusga mos kesilsin */
+  box-shadow: none; /* agar so‘ralgan bo‘lsa */
+  border: none !important;
+  
+}
+
+.img {
+  width: 100%;
+  height: 180px; /* ⭕️ To‘g‘ri semikolon */
+  object-fit: cover; /* ⚖️ Rasmni kartaga to‘liq sig‘dirish */
+  display: block;
+}
+
+.cardInfo {
+  background: #303234;
+  /* padding: 10px 20px 20px;  ichki bo‘shliq qo‘shdik */
+  /* border-radius: 0 0 12px 12px;  agar faqat past burchaklarni yumaloq qilish kerak bo‘lsa */
+}
+
+.title {
+  color: #fff !important;
+  margin: 0;
+  font-size: 18px !important;
+  line-height: 1.3rem;
+  height: 2.7em;
+  overflow: hidden;
+  margin-bottom: 30px !important;
+}
+
+.carfFuuter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-top: 12px; */
+  text-align: right;
+  color: #fff;
+}
+
+.detaBox {
+  color: #fff !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0 !important;
+  align-items: flex-start;
+}
+
+.date {
+  color: #fff !important;
+  margin: 0 !important;
+}
+
+.btn {
+  /* width: 100%; */
+  border: 3px solid #1976d2 !important;
+  text-transform: capitalize !important;
+  font-size: 16px !important;
+  background: none;
+  color: #1976d2;
+  /* color: #0A1821 !important; */
+  font-weight: 700 !important;
+  padding: 16px !important;
+}
+
+
+
+.card_left{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.card__left_avatart{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid wheat;
+  overflow: hidden;
+  
+}
+.avatart_img{
+  width: 100%;
+  border-radius: 50%;
+
+}
+
+.card__right{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 18px;
+}
+.pointer{
+  cursor: pointer;
+  
+}
+
+.like:active{
+  transform: scale(.8);
+}

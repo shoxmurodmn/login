@@ -1,8 +1,6 @@
 
 import { useRef, useState } from "react";
-import img from "../../../assets/Google_2015_logo.svg.png"
-// import bgr from '../../assets/orqa.jpg'
-//   const inputRef = useRef<HTMLInputElement>(null);
+
 import cls from "./passwordlost.module.scss"
 
 

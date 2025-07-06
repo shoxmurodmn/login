@@ -1,9 +1,7 @@
 
 import { useRef, useState } from "react";
 import { useNavigate } from 'react-router-dom';
-import axios from 'axios';
 
-import img from "../../assets/Google_2015_logo.svg.png"
 
 import cls from "./Register.module.scss"
 import GoogleAuth from "../../components/YourLoginComponent/YourLoginComponent";
@@ -122,7 +120,7 @@ const Register = () => {
                                                 <div className={cls.logotib}>
                                                         {/* <img src={img}width={80}  alt="" /> orqali ro'yxatdan o'ting */}
                                                 </div><GoogleAuth />
-                                                <div onClick={handleLoginTest}>dsad</div>
+                                                <div onClick={handleLoginTest}></div>
                                         </div>
                                 </form>
 
